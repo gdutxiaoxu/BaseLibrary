@@ -67,7 +67,7 @@ public class SettingClickItem extends RelativeLayout {
                 .SettingClickItem);
         mLeftIconId = typedArray.getResourceId(R.styleable.SettingClickItem_leftIcon, DEF_VALUE);
         mRightIconId = typedArray.getResourceId(R.styleable.SettingClickItem_rightIcon, DEF_VALUE);
-        mContent = typedArray.getString(R.styleable.SettingClickItem_content);
+        mContent = typedArray.getString(R.styleable.SettingClickItem_sci_content);
         mDes = typedArray.getString(R.styleable.SettingClickItem_des);
         typedArray.recycle();
     }

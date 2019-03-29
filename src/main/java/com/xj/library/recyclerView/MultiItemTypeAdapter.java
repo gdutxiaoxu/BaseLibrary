@@ -24,7 +24,7 @@ public class MultiItemTypeAdapter<T> extends RecyclerView.Adapter<ViewHolder> {
     protected ItemViewDelegateManager mItemViewDelegateManager;
     protected OnItemClickListener<T> mOnItemClickListener;
 
-    protected boolean isXRecyclerView(){
+    protected boolean isXRecyclerView() {
         return false;
     }
 
@@ -63,8 +63,8 @@ public class MultiItemTypeAdapter<T> extends RecyclerView.Adapter<ViewHolder> {
             public void onClick(View v) {
                 if (mOnItemClickListener != null) {
                     int position = viewHolder.getAdapterPosition();
-                    if(isXRecyclerView()){
-                        position=position-1;
+                    if (isXRecyclerView()) {
+                        position = position - 1;
                     }
                     mOnItemClickListener.onItemClick(v, viewHolder, mDatas.get(position), position);
                 }

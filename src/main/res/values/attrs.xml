@@ -54,7 +54,7 @@
     </declare-styleable>
 
     <declare-styleable name="SettingClickItem">
-        <attr name="content" format="string"/>
+        <attr name="sci_content" format="string"/>
         <attr name="leftIcon"/>
         <attr name="rightIcon"/>
         <attr name="des" format="string"/>
