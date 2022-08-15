@@ -2,7 +2,7 @@ package com.xj.library.utils;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
-import android.support.v4.content.ContextCompat;
+import androidx.core.content.ContextCompat;
 
 /**
  * Created by chenzhihui on 2016/05/27 0020.

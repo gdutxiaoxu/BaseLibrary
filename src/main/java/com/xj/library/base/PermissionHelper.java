@@ -2,12 +2,12 @@ package com.xj.library.base;
 
 import android.app.Activity;
 import android.os.Build;
-import android.support.annotation.NonNull;
-import android.support.annotation.RequiresApi;
+import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 
 import java.util.List;
 
-import static android.support.v4.app.ActivityCompat.shouldShowRequestPermissionRationale;
+import static androidx.core.app.ActivityCompat.shouldShowRequestPermissionRationale;
 
 /**
  * @author meitu.xujun  on 2017/4/7 09:53
